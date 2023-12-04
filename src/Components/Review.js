@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Review = () => {
-  document.body.style.background = "#f5f5f5"
+  document.body.style.background = "white"
   return (
     <body>
       <form data-multi-step class="multi-step-form">

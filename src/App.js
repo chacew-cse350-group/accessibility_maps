@@ -7,6 +7,7 @@ import { useJsApiLoader } from '@react-google-maps/api';
 import About from './Components/About';
 import Review from './Components/Review';
 import { Route, Routes } from 'react-router-dom';
+import Footer from './Components/Footer';
 
 function App() {
   const { isLoaded } = useJsApiLoader({
@@ -17,7 +18,7 @@ function App() {
   return (
     <div>
       <>
-        <Navbar/>
+      <Navbar />
         <div className='container'>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -26,6 +27,7 @@ function App() {
             <Route path="/review" element={<Review />} />
           </Routes>
         </div>
+        <Footer />
       </>
     </div>
   );
