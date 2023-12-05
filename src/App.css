@@ -32,20 +32,20 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    gap: 2rem;
+    gap: 1rem;
     padding: 0 1rem;
 }
 
 .nav ul {
     padding: 0;
-    margin: 0;
+    margin: 10;
     list-style: none;
     display: flex;
     gap: 1rem;
 }
 
 .nav-logo-container {
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 .navbar-menu-container {
@@ -56,7 +56,7 @@ body {
     margin-right: 3rem;
     text-decoration: none;
     color: black;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
@@ -99,8 +99,8 @@ body {
 
 .primary-heading {
     font-size: clamp(2rem, 5vw, 4rem);
-    color: #4c4c4c;
-    max-width: 600px;
+    color: black;
+    max-width: 525px;
 }
 
 .primary-heading2 {
@@ -111,11 +111,19 @@ body {
     text-align: center;
 }
 
+.primary-heading3 {
+    font-size: clamp(2rem, 5vw, 4rem);
+    color: #4c4c4c;
+    max-width: 600px;
+    transform: translateX(220px);
+    text-align: center;
+}
+
 .primary-text {
     font-size: clamp(1rem, 3vw, 1.5rem);
     max-width: 500px;
     color: #6a6a6a;
-    margin: 1.5rem 3rem;
+    margin: 2rem 2rem;
 }
 
 .primary-text2 {
@@ -124,6 +132,21 @@ body {
     color: #6a6a6a;
     margin: 1.5rem 3rem;
     transform: translateX(450px);
+}
+
+.primary-text3 {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    max-width: 500px;
+    color: #6a6a6a;
+    margin: 1.5rem 0rem;
+}
+
+.primary-text4 {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    max-width: 500px;
+    color: #6a6a6a;
+    margin: 1.5rem 3rem;
+    transform: translateX(235px);
 }
 
 .secondary-button {
@@ -140,7 +163,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0.5rem 10rem;
+    margin: 1.15rem 10rem;
 }
 
 .secondary-button svg {
@@ -149,6 +172,33 @@ body {
 }
 
 .secondary-button:hover {
+    background-color: #16558f;
+}
+
+.secondary-button2 {
+    padding: 1rem 2.5rem;
+    background-color: #0583d2;
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.15rem 10rem;
+    transform: translateX(220px);
+}
+
+.secondary-button2 svg {
+    margin-left: 0.75rem;
+    font-size: 1.5rem;
+}
+
+.secondary-button2:hover {
     background-color: #16558f;
 }
 
@@ -185,6 +235,12 @@ body {
     transform: translateX(230px)
 }
 
+.primary-subheading2 {
+    font-weight: 700;
+    color: #0583d2;
+    font-size: 1.5rem;
+    transform: translateX(220px)
+}
 
 .form-group {
     display: flex;

@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 {/*The contact component is located at the bottom of every page of the website right abover the footer. It allows 
 for people to provide a direct contact to the university's disability resource center. 
 As of currently it isn't a fully functional footer.*/}

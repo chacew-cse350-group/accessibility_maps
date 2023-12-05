@@ -4,8 +4,8 @@ import { GoogleMap } from '@react-google-maps/api';
 const Map = (props) => {
     const { isLoaded } = props
     const containerStyle = {
-        width: '400px',
-        height: '400px'
+        width: '75vw',
+        height: '75vh'
       };
       
       const center = {
