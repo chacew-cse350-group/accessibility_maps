@@ -8,6 +8,7 @@ import About from './Components/About';
 import Review from './Components/Review';
 import { Route, Routes } from 'react-router-dom';
 import Footer from './Components/Footer';
+import Contact from './Components/Contact';
 
 function App() {
   const { isLoaded } = useJsApiLoader({
@@ -16,8 +17,7 @@ function App() {
   })
 
   return (
-    <div>
-      <>
+    <div className="App">
       <Navbar />
         <div className='container'>
           <Routes>
@@ -27,8 +27,8 @@ function App() {
             <Route path="/review" element={<Review />} />
           </Routes>
         </div>
-        <Footer />
-      </>
+      <Contact />
+      <Footer />
     </div>
   );
 }
